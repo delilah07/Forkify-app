@@ -1,0 +1,24 @@
+{
+  "name": "forkify-app",
+  "version": "1.0.0",
+  "description": "recipe app",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delilah07/Forkify-app.git"
+  },
+  "author": "Iryna Abrosimova, lesson from Udemy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delilah07/Forkify-app/issues"
+  },
+  "homepage": "https://github.com/delilah07/Forkify-app#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1"
+  }
+}
