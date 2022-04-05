@@ -2,9 +2,9 @@
   "name": "forkify-app",
   "version": "1.0.0",
   "description": "recipe app",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html  --public-url ./",
     "build": "parcel build index.html"
   },
   "repository": {
@@ -20,5 +20,9 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.4.1",
     "parcel": "^2.4.1"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "regenerator-runtime": "^0.13.9"
   }
 }
