@@ -4,8 +4,8 @@
   "description": "recipe app",
   "default": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html  --public-url ./ --no-optimize"
+    "start": "parcel index.html --public-url ./",
+    "build": "parcel build index.html  --public-url  --no-optimize"
   },
   "repository": {
     "type": "git",
