@@ -4,8 +4,8 @@
   "description": "recipe app",
   "default": "index.html",
   "scripts": {
-    "start": "parcel index.html  --public-url ./",
-    "build": "parcel build index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html  --public-url ./ --no-optimize"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "core-js": "^3.21.1",
+    "fractional": "^1.0.0",
     "regenerator-runtime": "^0.13.9"
   }
 }
